@@ -60,79 +60,79 @@ Es un proceso continuo de actualización y monitoreo del software para **cerrar 
 📢 **Ejemplo:** Si creas una app bancaria, debes asegurarte de que las transacciones estén encriptadas y que el usuario no pueda ser suplantado.  
 
 
-### **📌 Todo lo que necesitas saber sobre Autenticación, Autorización y Cifrado🚀**
-La **Autenticación**, **Autorización** y **Cifrado** son pilares fundamentales en la seguridad informátic. Comprender estos conceptos es esencial para proteger sistemas y datos sensible. A continuación, te ofrecemos una guía completa para asegurar ese 100/100 en tu prueb.
+### **📌 Todo lo que necesitas saber sobre Autenticación, Autorización y Cifrado 🚀**
+
+La **Autenticación**, **Autorización** y **Cifrado** son pilares fundamentales en la seguridad informática. Comprender estos conceptos es esencial para proteger sistemas y datos sensibles. A continuación, te ofrecemos una guía completa para asegurar ese 100/100 en tu prueba.
 
 ---
 
-## **🔹 Autenticación: ¿Quién eres? 🕵️‍♂️*
+## **🔹 Autenticación: ¿Quién eres? 🕵️‍♂️**
 
-La **autenticación** es el proceso mediante el cual un sistema verifica la identidad de un usuario o dispositv. Es esencial para garantizar que solo las personas autorizadas accedan a recursos específis.
+La **autenticación** es el proceso mediante el cual un sistema verifica la identidad de un usuario o dispositivo. Es esencial para garantizar que solo las personas autorizadas accedan a recursos específicos.
 
 **Puntos clave:**
 
-- **Autenticación del servidor** El servidor verifica la identidad del usuario que intenta accer.
-- **Autenticación del cliente** El cliente verifica que el servidor es legítimo y confiae.
+- **Autenticación del servidor:** El servidor verifica la identidad del usuario que intenta acceder.
+- **Autenticación del cliente:** El cliente verifica que el servidor es legítimo y confiable.
 - **Métodos comunes de autenticación:**
-  - **Contraseñas** La forma más habitual, aunque puede ser vulnerable si no se gestionan correctamee.
-  - **Biometría** Uso de huellas dactilares, reconocimiento facial o de z.
-  - **Tarjetas inteligentes** Dispositivos físicos que almacenan credenciales de segurid.
-  - **Certificados digitales** Emitidos por entidades de confianza como Verisign o Thawte, garantizan la autenticidad de servidores y usuars.
+  - **Contraseñas:** La forma más habitual, aunque puede ser vulnerable si no se gestionan correctamente.
+  - **Biometría:** Uso de huellas dactilares, reconocimiento facial o de voz.
+  - **Tarjetas inteligentes:** Dispositivos físicos que almacenan credenciales de seguridad.
+  - **Certificados digitales:** Emitidos por entidades de confianza como Verisign o Thawte, garantizan la autenticidad de servidores y usuarios.
 
-**Ejemplo práctico** Al acceder a tu correo electrónico, introduces tu nombre de usuario y contraseña. El servidor verifica estos datos para confirmar tu identidad antes de otorgarte acco.
-
----
-
-## **🔹 Autorización: ¿Qué puedes hacer? �**
-
-Una vez autenticado, la **autorización** determina los recursos y acciones a los que tienes pemso. Es el proceso que define tus privilegios dentro del siema.
-
-**Aspectos esenciales:*
-
-- La autorización siempre sigue a la autenticación; primero se verifica quién eres y luego qué puedes cer
-- Los permisos pueden variar según el usuario, rol o grupo al que pertencas
-- Algunos recursos pueden estar disponibles sin necesidad de autorización específica, como páginas web púbcas.
-
-**Ejemplo práctio:** En una empresa, un empleado del departamento de recursos humanos puede tener acceso a información salarial, mientras que un empleado de otro departamen no.
+**Ejemplo práctico:** Al acceder a tu correo electrónico, introduces tu nombre de usuario y contraseña. El servidor verifica estos datos para confirmar tu identidad antes de otorgarte acceso.
 
 ---
 
-## **🔹 Cifrado: Protegiendo la información en tránsit 🔒**
+## **🔹 Autorización: ¿Qué puedes hacer? 🔑**
 
-El **cifrado** transforma datos legibles en un formato ininteligible para protegerlos durante la transmisión o almacenmento. Solo quienes posean la clave de descifrado adecuada pueden acceder a la información oginal.
+Una vez autenticado, la **autorización** determina los recursos y acciones a los que tienes permiso. Es el proceso que define tus privilegios dentro del sistema.
+
+**Aspectos esenciales:**
+
+- La autorización siempre sigue a la autenticación; primero se verifica quién eres y luego qué puedes hacer.
+- Los permisos pueden variar según el usuario, rol o grupo al que pertenezcas.
+- Algunos recursos pueden estar disponibles sin necesidad de autorización específica, como páginas web públicas.
+
+**Ejemplo práctico:** En una empresa, un empleado del departamento de recursos humanos puede tener acceso a información salarial, mientras que un empleado de otro departamento no.
+
+---
+
+## **🔹 Cifrado: Protegiendo la información en tránsito 🔒**
+
+El **cifrado** transforma datos legibles en un formato ininteligible para protegerlos durante la transmisión o almacenamiento. Solo quienes posean la clave de descifrado adecuada pueden acceder a la información original.
 
 **Puntos destacados:**
 
 - **Protocolos comunes:**
-  - **SSL (Secure Socket Laer):** Utilizado para asegurar conexiones web, visible en URLs que comienzan con "hts://".
-  - **SSH (Secure Shll):** Proporciona una forma segura de acceder a sistemas motos.
-- **Aplicaciones del cifrado**
-  - Protección de datos sensibles como números de tarjetas de crédito o información personal durante transacciones elínea
-  - Asegurar comunicaciones entre clientes y servidores para evitar interceptaciones malintencnadas.
+  - **SSL (Secure Socket Layer):** Utilizado para asegurar conexiones web, visible en URLs que comienzan con "https://".
+  - **SSH (Secure Shell):** Proporciona una forma segura de acceder a sistemas remotos.
+- **Aplicaciones del cifrado:**
+  - Protección de datos sensibles como números de tarjetas de crédito o información personal durante transacciones en línea.
+  - Asegurar comunicaciones entre clientes y servidores para evitar interceptaciones malintencionadas.
 
-**Ejemplo prácico:** Al realizar una compra en línea, el cifrado asegura que los datos de tu tarjeta de crédito viajen de forma segura desde tu navegador hasta el servidor del comerciante, protegiéndolos de posibles interctores.
+**Ejemplo práctico:** Al realizar una compra en línea, el cifrado asegura que los datos de tu tarjeta de crédito viajen de forma segura desde tu navegador hasta el servidor del comerciante, protegiéndolos de posibles interceptores.
 
 ---
 
-## **🔹 Integrando Autenticación, Autorización y Cifrado en la vida diaia 🌐**
+## **🔹 Integrando Autenticación, Autorización y Cifrado en la vida diaria 🌐**
 
-Estos tres conceptos trabajan juntos para garantizar la seguridad en múltiples escenarios cidianos.
+Estos tres conceptos trabajan juntos para garantizar la seguridad en múltiples escenarios cotidianos.
 
 **Caso práctico: Viaje en avión**
 
 1. **Compra del boleto en línea:**
-   - **Cfrado:** Protege la información de tu tarjeta de crédito durante la trsacción.
+   - **Cifrado:** Protege la información de tu tarjeta de crédito durante la transacción.
 2. **Check-in en el aeropuerto:**
-   - **Autentiación:** Verificación de tu identidad mediante documento oficial boleto.
+   - **Autenticación:** Verificación de tu identidad mediante documento oficial y boleto.
 3. **Embarque en el avión:**
-   - **Autoriación:** Confirmación de que tienes permiso para abordar ese vuelo eecífico.
+   - **Autorización:** Confirmación de que tienes permiso para abordar ese vuelo específico.
 
 **Aplicaciones en informática:**
 
-- **Cfrado:** Protege datos personales al registrarte o realizar comprasn línea.
-- **Autentiación:** Verifica tu identidad al iniciar sesión en servicios como correo electrónico o redesociales.
-- **Autoriación:** Determina qué acciones puedes realizar dentro de una plataforma, como acceder a configuraciones avanzadas o informaciónensible.
-
+- **Cifrado:** Protege datos personales al registrarte o realizar compras en línea.
+- **Autenticación:** Verifica tu identidad al iniciar sesión en servicios como correo electrónico o redes sociales.
+- **Autorización:** Determina qué acciones puedes realizar dentro de una plataforma, como acceder a configuraciones avanzadas o información sensible.
 
 ### **🚀 Los 12 Factores para Aplicaciones: La Guía Infalible📚🔥**  
 
